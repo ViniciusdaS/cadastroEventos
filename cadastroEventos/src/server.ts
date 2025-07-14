@@ -1,5 +1,5 @@
 import express, { Application } from "express"; 
-import { AppDataSource } from "./database/data-source";
+import AppDataSource from "./database/data-source";
 import routes from './routes/usuarioRoutes'
 import eventRoutes from './routes/eventosRoutes'
 import { Request, Response } from 'express'
@@ -12,8 +12,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true })); 
 app.use(cors({
     origin: [
-    'http://localhost:5500',
-    'http://127.0.0.1:5500'
+    'http://localhost:3000',
+    'http://127.0.0.1:3000'
     ]
 }));
 
