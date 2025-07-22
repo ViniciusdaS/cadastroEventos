@@ -13,3 +13,6 @@
 
 # Banco de dados 💾
 * mySQL;
+
+# Ferramenta de deploy 🌐
+* Vercel; 
